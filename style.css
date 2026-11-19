@@ -147,3 +147,9 @@ transition: all 0.3s ease;
 
     transition: 0.3s ease;
 }
+
+.info-card:hover{
+    transform: rotateY(.5px);
+
+    border-color: #dc2626;
+}
