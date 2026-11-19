@@ -116,3 +116,11 @@ font-size: 1rem;
 box-shadow: 0 0 20px rgba(248, 113, 113, 0.35);
 transition: all 0.3s ease;
 }
+
+.conteudo{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
