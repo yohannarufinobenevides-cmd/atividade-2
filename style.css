@@ -38,3 +38,9 @@ body::before{
     top: 20%;
     left: 25%;
 }
+
+body::after{
+    background: #2563eb;
+    bottom: 20%;
+    right: 25%;
+}
