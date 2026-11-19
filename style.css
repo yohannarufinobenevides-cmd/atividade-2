@@ -44,3 +44,21 @@ body::after{
     bottom: 20%;
     right: 25%;
 }
+
+.card{
+   position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 40px 32px;
+    border-radius: 24px;
+    max-width: 420px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+
+    flex-shrink: 0;
+}
