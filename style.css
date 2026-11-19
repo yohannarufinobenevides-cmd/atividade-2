@@ -153,3 +153,9 @@ transition: all 0.3s ease;
 
     border-color: #dc2626;
 }
+
+.info-card h3{
+    color: #f87171;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
