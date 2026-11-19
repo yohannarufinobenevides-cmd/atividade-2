@@ -159,3 +159,21 @@ transition: all 0.3s ease;
     font-size: 1.4rem;
     margin-bottom: 15px;
 }
+
+.info-card p:last-child{
+    margin-top: 0;
+}   
+    @media (max-width: 768px){
+        .informacoes{
+            grid-template-columns: 1fr;
+        }
+    
+
+    .conteudo h2{
+        font-size: 1.6rem;
+    }
+
+    .info-card{
+        padding: 22px;
+    }
+}
